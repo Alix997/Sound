@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+        background-color:  #000000e6;
+}
+
+.btn {
+    border-width: 5px;
+    background-color: #ff8000;
+    color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.514), 0 1px 10px 0 rgba(0, 0, 0, 0.651) inset;
+    border-radius:30px 60px;
+    transition: all 0.6s;
+}
+.btn:hover{
+    box-shadow: none;
+    border-color: #fff;
+}
+
+.bg-light{
+    background-color: #212529 !important;
+}
+hr{
+    background-color: #000000;
+}
+
+
+/*
+    Header style 
+*/
+
+/*
+    Sign up and login Page style 
+*/
+.title{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #ff8000;
+}
+.title p {
+    display: inline-block;
+}
+.title img{
+    float: right;
+    width: 50px;
+    height: 36px;
+}
+input{
+    border: 0 !important;
+    height: 45px;
+    color: #fff !important;
+    background-color: #1e1e1e !important;
+    border-radius: 25px !important;
+    padding-left: 15px !important;
+}
+.sh-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.61), 0 6px 20px 0 rgba(0, 0, 0, 0.61);
+}
+
+.wrap {
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #111111a6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*
+    dashbord style 
+*/
+.welcomeuser{
+	padding-top: 17px;
+	font-size: 25px;
+}
+.wrap2 {
+    padding: 10px;
+    background-color: #111111c2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.listheader{
+    margin:0;
+    background-color: rgba(255, 128, 0, 0.822) !important;
+    text-decoration: none !important;
+    padding: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.list-group-item:first-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item{
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.411) !important;
+}
+
+/*
+    playlist style & tabs
+*/
+.playlists {
+	float:left;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tabcontainer ul li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #111111a6;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    cursor: pointer;
+    transition: all .6s;
+}
+
+ul li.inactive {
+    background: #00000069 !important;
+}
+ul li:hover{
+    background: #ff8000c9 !important;
+}
+.tabcontainer div{
+    background: #111111a6;
+    padding: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.tabcontainer div:not(:first-of-type){
+    display: none;
+}
+
+
+
+
+
+
+.tabcontainer2{
+    background: #111111a6;
+    padding: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.tabs ul li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #111111a6;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    cursor: pointer;
+    transition: all .6s;
+}
+#tab1-tabcontent2 ,#tab2-tabcontent2 ,#tab3-tabcontent2 {
+    display: none;
+}
